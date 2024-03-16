@@ -9,6 +9,9 @@ from tamp_detect import preprocess,ocr_pan,plot_bounding_boxes,ocr_text
 def main():
     st.title("Pan Card Text Detection using OCR")
 
+    # Check if the 'uploads' folder exists, if not, create it
+    if not os.path.exists("uploads"):
+        os.makedirs("uploads")
     uploaded_file = st.sidebar.file_uploader("Upload PAN Card Image", type=["jpg", "jpeg", "png"])
 
     if uploaded_file is not None:

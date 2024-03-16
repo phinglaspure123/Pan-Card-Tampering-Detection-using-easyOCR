@@ -31,6 +31,33 @@ run this command in terminal
   pip install -r requirements.txt
 ```
     
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/phinglaspure123/Pan-Card-Tampering-Detection-using-easyOCR-final.git
+```
+
+Go to the project directory
+
+```bash
+  Pan-Card-Tampering-Detection-using-easyOCR-final
+```
+
+Install dependencies
+
+```bash
+  pip install -r requirements.txt
+```
+
+Start the server
+
+```bash
+  streamlit run app.py
+```
+
+
 ## Authors
 
 - [@phinglaspure123](https://github.com/phinglaspure123)
